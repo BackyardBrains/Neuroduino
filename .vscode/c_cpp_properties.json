@@ -1,0 +1,40 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Mac",
+            "compilerPath": "/usr/bin/clang",
+            "compilerArgs": [],
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/leonardo",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/**",
+                "/Applications/Arduino.app/Contents/Java/libraries/**",
+                "/Users/benantonellis/Documents/Arduino/libraries/**",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/**",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/**",
+                "/Applications/Arduino.app/Contents/Java/tools/**",
+				"/Users/benantonellis/Documents/Github/NeuroBoard/**"
+            ],
+            "forcedInclude": [
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/io2323.h",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/io43u35x.h",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/iotn26.h",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/interrupt.h",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/iotnx4.h",
+                "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h",
+                "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr/iocanxx.h",
+				"/Users/benantonellis/Documents/Github/NeuroBoard/site_examples/LCD_I2C/twi.h"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "defines": [
+                "USBCON"
+            ]
+        }
+	]
+}

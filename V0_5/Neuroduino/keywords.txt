@@ -1,3 +1,0 @@
-Neuroduino	KEYWORD1
-writeLED	KEYWORD2
-writeLEDs	KEYWORD2
